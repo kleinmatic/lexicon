@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Claude Code
+.claude/
+
+# Symlink for testing (nadsat.py -> nadsat)
+nadsat.py
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Downloaded source text (not public domain in the US; never commit)
+.cache/
+
+# Web page: left out of the repository for now (command line only).
+# build.py still writes dictionary.js; it stays local.
+index.html
+index.css
+app.js
+dictionary.js
+DESIGN.md
