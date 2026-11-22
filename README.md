@@ -117,11 +117,16 @@ Newspeak terms from George Orwell's *Nineteen Eighty-Four* (1949), checked
 against the [Project Gutenberg Australia text](https://gutenberg.net.au/ebooks01/0100021h.html).
 The definitions are original summaries written for this tool.
 
-## Copyright
+## Copyright and license
 
-No copyright is claimed in this repository. The words belong to the novels
-and their authors' estates; they are quoted here for reference and
-commentary. The Nadsat definitions come from Wiktionary and remain under
-Creative Commons Attribution-ShareAlike, as credited above.
+The program code (`lexicon`, `nadsat`, `newspeak`, `build.py`, the tests, and
+`tools/`) is under the MIT License; see [LICENSE](LICENSE).
+
+The license does not cover the dictionary content: the Nadsat and Newspeak
+words, their definitions, and the notes on them, whether in `data/*.csv` or
+embedded in `lexicon`. No copyright is claimed in that content. The words
+belong to the novels and their authors' estates and are quoted here for
+reference and commentary. The Nadsat definitions come from Wiktionary and
+remain under Creative Commons Attribution-ShareAlike, as credited above.
 
 Created with Claude Code.
